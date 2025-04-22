@@ -1,0 +1,38 @@
+.photo {
+  max-width: 1200px;
+}
+
+.photo__header {
+  text-align: center;
+  margin: 50px;
+  /*font-size: 20 px; */
+}
+
+.photo__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 16px 16px;
+  margin: 0px auto 80px;
+}
+
+.photo__image {
+  width: 100%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 544px) {
+  .photo__container {
+    max-width: 290px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+  }
+}
+
+@media screen and (min-width: 545px) and (max-width: 1024px) {
+  .photo__container {
+    max-width: 700px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin-bottom: 70px;
+  }
+}
