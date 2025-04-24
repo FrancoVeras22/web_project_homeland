@@ -12,8 +12,7 @@
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
-  text-align: center;
-
+  text-align: left;
   margin: auto;
 }
 
@@ -27,8 +26,7 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
-  text-align: center;
-
+  text-align: left;
   margin: 39.98px auto auto auto;
 }
 
@@ -57,7 +55,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
-
+  text-align: left;
   margin: 32px auto auto auto;
 }
 
